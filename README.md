@@ -15,7 +15,7 @@ Before you run this script, make sure you have the following installed:
 1. Clone this repository or download the `index.js` file.
 
 2. Install the required Node.js modules by running the following command in the terminal:
-
+npm install mongodb
 
 ## Configuration
 
@@ -24,6 +24,8 @@ Before you run this script, make sure you have the following installed:
 ## Usage
 
 To run the script, execute the following command in the terminal:
+
+node index.js
 
 
 The script will connect to the MongoDB server using the provided URI, retrieve available data from the specified collection, and display it in the console.
